@@ -11,13 +11,13 @@ pip install -r requirements.txt
 ## Results
 
 | Model | Data | Epochs | Accuracy | F1 | Time|
-|--------------------------|--------------|---|---------|------|----------|
+|--------------------------|--------------|---|--------|--------|---------|
 | DistilBERT (Transformer) | 10k/class    | 3 | 89.62% | 89.62% | 3.4 min |
 | DistilBERT (Transformer) | 500k/class   | 1 | 92.68% | 92.68% | 53 min  |
+| CNN + GloVe              | 30k/class    | 5 | 86.43% | 86.43% | 17.5 min|
+| CNN + GloVe              | 60k/class    | 8 | 88.10% | 88.09% | 85 min  |
 | CNN + GloVe              | 500k/class   | 10| 90.46% | 90.46% | 9.5 h   |
 
-CNN + GloVe 30k/class 5 0.8643 0.8643 17.5min
-CNN + GloVe 60k/class 8 0.8810 0.8809 85min
 
 
 ## Data
