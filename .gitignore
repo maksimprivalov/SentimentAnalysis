@@ -1,0 +1,30 @@
+# Data (large files)
+data/raw/
+data/processed/
+data/embeddings/
+*.csv
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Outputs
+outputs/
+checkpoints/
+*.pth
+*.pt
+
+# IDE / OS
+.idea/
+.DS_Store
+*.ipynb_checkpoints/
+
+# GloVe / datasets (keep paths in README)
+Amazon_Reviews/
+wiki_giga*
