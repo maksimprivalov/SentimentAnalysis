@@ -16,6 +16,10 @@ pip install -r requirements.txt
 | DistilBERT (Transformer) | 500k/class   | 1 | 92.68% | 92.68% | 53 min  |
 | CNN + GloVe              | 500k/class   | 10| 90.46% | 90.46% | 9.5 h   |
 
+CNN + GloVe 30k/class 5 0.8643 0.8643 17.5min
+CNN + GloVe 60k/class 8 0.8810 0.8809 85min
+
+
 ## Data
 
 - **Amazon Reviews**: put `train.csv` and `test.csv` in `Amazon_Reviews/` (or set `--data_dir`).
